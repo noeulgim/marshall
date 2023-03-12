@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTPro-BdCn';
+  src: url('./font/HelveticaNeueLTPro-BdCn.woff2');
+}
+@font-face {
+  font-family: 'HelveticaNeueLTPro-Cn';
+  src: url('./font/HelveticaNeueLTPro-Cn.woff2');
+}
+@font-face {
+  font-family: 'HelveticaNeueLTPro-HvCn';
+  src: url('./font/HelveticaNeueLTPro-HvCn.woff2');
+}
+@font-face {
+  font-family: 'HelveticaNeueLTPro-MdCn';
+  src: url('./font/HelveticaNeueLTPro-MdCn.woff2');
+}
+@font-face {
+  font-family: 'marshallheadphones-icons';
+  src: url('./font/marshallheadphones-icons.woff');
+}

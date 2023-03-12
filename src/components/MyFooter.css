@@ -1,0 +1,111 @@
+* { color: #fff; }
+.ft-width {
+    width: calc(100% - 22.6rem);
+    margin: 0 auto;
+}
+.footer-wrapper {
+    background-color: #000;
+    margin: 0 auto;
+}
+.footer-top {
+    background-color: #161616;
+}
+.newsletter-wrap {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2.4rem 0;
+}
+.news-title {
+    width: 27rem;
+    flex-shrink: 0;
+}
+.news-title h3, .news-title span {
+    text-align: left;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.news-title h3 {
+    text-transform: uppercase;
+}
+.news-title span {
+    display: block;
+}
+.email-form form {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+.input-email {
+    margin: 0 3rem 0 1rem;
+}
+.input-email input {
+    font-size: 1.6rem;
+    line-height: 1.125;
+    padding: 1.2rem;
+    height: 4.2rem;
+    width: 40rem;
+    color: #161616;
+}
+input::placeholder {
+    font-family: 'HelveticaNeueLTPro-Cn';
+    text-align: center;
+    letter-spacing: .05rem;
+ }
+input:focus {
+    outline: 0;
+}
+.email-form .policy {
+    width: 23rem;
+    padding: .5rem;
+    text-align: center;
+}
+.email-form .policy p {
+    font-size: 1.4rem;
+    line-height: 1.14286;;
+    text-transform: uppercase;;
+}
+.email-form .policy span {
+    text-decoration: underline;
+}
+.email-form button {
+    margin: 0 2rem 0 3rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+h4 {
+    font-size: 1.8rem;
+    line-height: 1.11111;
+    text-transform: uppercase;
+}
+.footer-menu ul {
+    margin: 1rem 0 1.8rem;
+}
+.footer-menu ul li {
+    margin: .2rem 0;
+}
+.footer-menu ul li a {
+    font-size: 1.4rem;
+    line-height: 1.5;;
+    color: #999;;
+    text-transform: uppercase;
+}
+.footer-menu button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.acc-menu > a {
+    display: block;
+    margin: 1.2rem auto;
+}
+
+.payments-wrap {
+    padding-top: 5.8rem;
+}
